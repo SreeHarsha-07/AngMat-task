@@ -1,0 +1,53 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+.matcard {
+    max-width: 400px;
+  }
+  .main-div{
+    width: 100%;
+  }
+  
+  .matcard-header {
+    background-color: rgb(82, 13, 194);
+    color: white;
+    display: inline-block;
+  }
+  .matcard-header1 {
+    background-color: #D23369;
+    color: white;
+    display: inline-block;
+  }
+  .matcard-header2 {
+    background-color: #e72828;
+    color: white;
+    display: inline-block;
+  }
+
+  .name-card{
+    width: 40%;
+    display: inline-block;
+    padding-top: 10px;
+
+  }
+  .option{
+    width: 10%;
+    float: right;
+    padding-bottom: 20Px;
+}
+.butlow{
+    width: 30%;
+    float: left;
+    margin-right: 55%;
+}
+ .share{
+    width: 20%;
+    float: right;
+ }
+ .share0, .share1{
+    width: 20%;
+    float: right;
+    margin-left: 85%;
+ }
